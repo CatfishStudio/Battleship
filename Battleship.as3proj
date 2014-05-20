@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="bin\Battleship.swf" />
+    <movie fps="30" />
+    <movie width="800" />
+    <movie height="600" />
+    <movie version="10" />
+    <movie minorVersion="1" />
+    <movie platform="Flash Player" />
+    <movie background="#FFFFFF" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option accessible="False" />
+    <option advancedTelemetry="False" />
+    <option allowSourcePathOverlap="False" />
+    <option benchmark="False" />
+    <option es="False" />
+    <option locale="" />
+    <option loadConfig="" />
+    <option optimize="True" />
+    <option omitTraces="True" />
+    <option showActionScriptWarnings="True" />
+    <option showBindingWarnings="True" />
+    <option showInvalidCSS="True" />
+    <option showDeprecationWarnings="True" />
+    <option showUnusedTypeSelectorWarnings="True" />
+    <option strict="True" />
+    <option useNetwork="True" />
+    <option useResourceBundleMetadata="True" />
+    <option warnings="True" />
+    <option verboseStackTraces="False" />
+    <option linkReport="" />
+    <option loadExterns="" />
+    <option staticLinkRSL="True" />
+    <option additional="" />
+    <option compilerConstants="" />
+    <option minorVersion="" />
+  </build>
+  <!-- SWC Include Libraries -->
+  <includeLibraries>
+    <!-- example: <element path="..." /> -->
+  </includeLibraries>
+  <!-- SWC Libraries -->
+  <libraryPaths>
+    <!-- example: <element path="..." /> -->
+  </libraryPaths>
+  <!-- External Libraries -->
+  <externalLibraryPaths>
+    <!-- example: <element path="..." /> -->
+  </externalLibraryPaths>
+  <!-- Runtime Shared Libraries -->
+  <rslPaths>
+    <!-- example: <element path="..." /> -->
+  </rslPaths>
+  <!-- Intrinsic Libraries -->
+  <intrinsics>
+    <!-- example: <element path="..." /> -->
+  </intrinsics>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <asset path="images\bgimage.png" />
+    <asset path="images\startMenu.png" />
+    <asset path="images\buttonStart.png" />
+    <asset path="images\logo.png" />
+    <asset path="images\panelShips.png" />
+    <asset path="images\rus.png" />
+    <asset path="images\eng.png" />
+    <asset path="images\buttonStartRus.png" />
+    <asset path="images\ship128_32.png" />
+    <asset path="images\ship32_32.png" />
+    <asset path="images\ship64_32.png" />
+    <asset path="images\ship96_32.png" />
+    <asset path="images\mine.png" />
+    <asset path="images\buttonRotatEng.png" />
+    <asset path="images\buttonRotatRus.png" />
+    <asset path="images\buttonResetEng.png" />
+    <asset path="images\buttonResetRus.png" />
+    <asset path="images\buttonCancelEng.png" />
+    <asset path="images\buttonCancelRus.png" />
+    <asset path="images\windowStartBattle.png" />
+    <asset path="images\buttonTheBattleEng.png" />
+    <asset path="images\buttonTheBattleRus.png" />
+    <asset path="images\ship128_32_destroy.png" />
+    <asset path="images\ship32_32_destroy.png" />
+    <asset path="images\ship64_32_destroy.png" />
+    <asset path="images\ship96_32_destroy.png" />
+    <asset path="images\hit.png" />
+    <asset path="images\boom.png" />
+    <asset path="images\windowGameResult.png" />
+    <asset path="images\buttonOK.png" />
+    <asset path="images\buttonNewGameEng.png" />
+    <asset path="images\buttonNewGameRus.png" />
+    <asset path="images\buttonOptionsEng.png" />
+    <asset path="images\buttonOptionsRus.png" />
+    <asset path="images\buttonUp.png" />
+    <asset path="images\buttonDown.png" />
+    <asset path="sounds\amb_noise_background_loop.MP3" />
+    <asset path="sounds\miss_and_ship_set.MP3" />
+    <asset path="sounds\ship_hit2.MP3" />
+    <asset path="sounds\click.mp3" />
+    <asset path="sounds\boom2.mp3" />
+    <asset path="images\buttonScoutingEng.png" />
+    <asset path="images\buttonScoutingRus.png" />
+  </library>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\Battleship\Main.as" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="obj" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="Default" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>
